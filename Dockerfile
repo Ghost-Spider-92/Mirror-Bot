@@ -1,5 +1,4 @@
 FROM breakdowns/mega-sdk-python:latest
-CMD /entrypoint.sh
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY extract /usr/local/bin
