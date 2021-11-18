@@ -1,0 +1,19 @@
+{
+  "name": "c2ptech",
+  "description": "c2ptech uploader.",
+  "logo": "https://forum.rclone.org/uploads/default/original/2X/0/0f430bb0f2f7a9ed020a9e93c89f4d332adcac4b.gif",
+  "keywords": ["url", "remote", "mega", "mega.nz", "remoteupload", "onedrive", "mega-dl", "downloader", "driveuploader", "Rcloneuploader", "rclone", "index"],
+  "env": {
+     "CONFIG_FILE_URL": {
+      "description": "Please Paste your config.env file in URL.Use https://gist.github.com ,
+      "value": "https://gist.githubusercontent/.../raw/.../config.env"
+                  }
+
+
+          },
+
+
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
