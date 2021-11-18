@@ -1,5 +1,5 @@
 FROM breakdowns/mega-sdk-python:latest
-
+CMD /entrypoint.sh
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY extract /usr/local/bin
@@ -15,5 +15,5 @@ COPY .netrc /root/.netrc
 RUN ls
 RUN chmod 600 /usr/src/app/.netrc
 RUN chmod +x aria.sh
-
+CMD /entrypoint.sh
 CMD ["bash","start.sh"]
