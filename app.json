@@ -1,16 +1,4 @@
-{
-  "name": "c2ptech",
-  "description": "c2ptech uploader.",
-  "env": {
-     "CONFIG_FILE_URL": {
-      "description": "Please Paste your config.env file in URL.Use https://gist.github.com" ,
-      "value": "https://gist.githubusercontent/.../raw/.../config.env"
-                  }
-
-
-          },
-
-
+}
   "website": "",
   "repository": "",
   "stack": "container"
